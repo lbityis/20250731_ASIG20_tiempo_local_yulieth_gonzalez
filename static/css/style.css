@@ -1,0 +1,40 @@
+/* resetear css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* googele font */
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    background-color: #1eb39f;
+    padding: 15px;
+}
+
+.nav-container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-container h1 {
+    color: #fff;
+    font-size: 40px;
+}
+
+.text-nav {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.text-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
