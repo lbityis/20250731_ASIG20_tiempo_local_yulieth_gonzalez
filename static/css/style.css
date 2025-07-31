@@ -11,7 +11,7 @@ body {
 }
 
 nav {
-    background-color: #1eb39f;
+    background-color: #2daa9e;
     padding: 15px;
 }
 
@@ -37,4 +37,21 @@ nav {
     color: #fff;
     text-decoration: none;
     font-size: 20px;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.santiago {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 2px solid #000;
+}
+
+.santiago h2 {
+    
 }
