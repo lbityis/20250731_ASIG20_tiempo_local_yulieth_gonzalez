@@ -48,10 +48,45 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 15px 0px;
     border-bottom: 2px solid #000;
 }
 
-.santiago h2 {
-    
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card img {
+    border-radius: 100px;
+    width: 150px;
+}
+
+.card {
+    background-color: #eaeaea;
+    color: #000;
+    margin-top: 20px;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.text-card {
+    padding: 20px;
+}
+
+.grados {
+    width: 150px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.azul {
+    color: #8eafeb;
+}
+
+.rojo {
+    color: #fc6b52;
 }
